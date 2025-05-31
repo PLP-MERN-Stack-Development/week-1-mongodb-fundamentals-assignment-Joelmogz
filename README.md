@@ -1,47 +1,27 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19644774&assignment_repo_type=AssignmentRepo)
-# MongoDB Fundamentals Assignment
+# MongoDB Books Collection Project
 
-This assignment focuses on learning MongoDB fundamentals including setup, CRUD operations, advanced queries, aggregation pipelines, and indexing.
+This repository contains MongoDB scripts for inserting and querying a books collection, as part of the GitHub Classroom assignment.
 
-## Assignment Overview
+## 📁 Files Included
 
-You will:
-1. Set up a MongoDB database
-2. Perform basic CRUD operations
-3. Write advanced queries with filtering, projection, and sorting
-4. Create aggregation pipelines for data analysis
-5. Implement indexing for performance optimization
+- `insert_books.js`: Script to insert sample book documents into the MongoDB collection.
+- `queries.js`: Contains all required MongoDB queries including find, update, delete, aggregation pipelines, and indexing.
+- `screenshot.png`: A screenshot of the MongoDB Compass or Atlas showing the `books` collection and sample data.
+- `README.md`: Instructions for running the scripts and understanding the project structure.
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+## 🛠️ Requirements
 
-## Files Included
+Before running the scripts, make sure you have the following installed:
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+- [Node.js](https://nodejs.org/)
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass) or [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- A local MongoDB server or a connection URI for MongoDB Atlas
 
-## Requirements
+-#  How to Run the Scripts
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
-
-## Submission
-
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Complete all tasks in the assignment
-2. Add your `queries.js` file with all required MongoDB queries
-3. Include a screenshot of your MongoDB database
-4. Update the README.md with your specific setup instructions
-
-## Resources
-
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+Make sure your MongoDB server is running before executing the scripts.
+Run the insert script
+Open queries.js and copy/paste individual commands into your MongoDB shell or use them in a script with the MongoDB Node.js drive
+See screenshot.png for a visual confirmation of the database and collection structure in MongoDB Compass or Atlas.
